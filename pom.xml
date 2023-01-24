@@ -88,6 +88,22 @@
 			<version>1.9.1</version>
 		</dependency>
 	</dependencies>
+	
+	<distributionManagement>
+	
+		
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <url>http://172.31.44.132:8081/repository/SpringBootLoginRegistration-Snapshot/</url>
+	    </snapshotRepository>	
+		
+	    
+	   <repository>
+	      <id>nexus</id>
+	      <url>http://172.31.44.132:8081/repository/SpringBootLoginRegistration-Release/</url>
+	   </repository>
+	    
+	</distributionManagement>
 
 	<build>
 		<plugins>
